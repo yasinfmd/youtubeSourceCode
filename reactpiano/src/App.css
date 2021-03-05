@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pianoWrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.piano{
+  padding-left: 0;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  width: 700px;
+  height: 200px;
+}
+.key{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  cursor: pointer;
+}
+.white-key{
+  background: #fff;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-radius: 0 0 6px 6px;
+  width: 100%;
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
