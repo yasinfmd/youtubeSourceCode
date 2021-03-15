@@ -1,19 +1,19 @@
 <template>
-<p>{{user}}</p>
-<custom-input v-model:firstName.bigger="user.name" v-model:age.reverse="user.age" />
+Vuejs Env ve Config Kullanımı
 </template>
 
 <script>
-import CustomInput from './components/CustomInput.vue'
+import axios from 'axios'
 export default {
-  components: { CustomInput },
-  data(){
-    return{
-      user:{
-        name:'',
-        age:''
-      }
-    }
+  //
+  created(){
+    axios.get('/api/todos/1').then((res)=>{
+      console.log('res',res)
+    })
+    console.log('env',process.env.VUE_APP_DB)
+  },
+  name: 'App',
+  components: {
   }
 }
 </script>

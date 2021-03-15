@@ -2,9 +2,8 @@
 <div>
     <h2>Form</h2>
     <div>
-<input :value='firstName' @input="onChangeFirstName($event)" />
+    <input :value='firstName' @input="onChangeFirstName($event)" />
     </div>
-    <br/><br/>
     <div>
     
 <input  :value='age' @input="onChangeAge($event)" />
@@ -15,10 +14,6 @@
 
 <script>
 export default {
-    created(){
-        console.log(this.firstNameModifiers)
-        console.log(this.ageModifiers)
-    },
     methods:{
            onChangeAge(e){
                 let ageValue=e.target.value;
