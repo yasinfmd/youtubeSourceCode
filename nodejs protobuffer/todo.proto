@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package todoService;
+
+
+message Todo{
+    int32 id = 1;
+    string title = 2;
+    string content = 3;
+    bool active = 4;
+}
+
+message Todos{
+    repeated Todo todos = 1;
+}
