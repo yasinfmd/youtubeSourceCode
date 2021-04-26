@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+
+package userPackage;
+
+
+service User{
+    rpc createUser(UserItem) returns (UserItem); //unary
+    rpc readUsers(NoParam) returns (UserItems);
+    rpc readUserStream(NoParam) returns (stream UserItem); // single req multiple response 
+    rpc nowTime(stream Text) returns (stream Text);
+}
+
+
+message Text{
+    string text = 1;
+}
+message UserItem{
+    int32 id=1;
+    string name = 2;
+    string lastname = 3;
+}
+
+message UserItems{
+    repeated UserItem items=1;
+}
+
+message NoParam{}
