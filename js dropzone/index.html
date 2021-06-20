@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .dropArea{
+            
+            display: flex;
+            width: 500px;
+            height: 500px;
+            border: 2px dashed purple;
+            align-items: center;
+            justify-content: center;
+        }
+        .dropArea img{
+             width: 500px;
+            height: 500px;
+        }
+        .dropArea:hover{
+            cursor: pointer;
+        }
+        .dropArea.over{
+            background-color: aliceblue;
+            border: 2px solid purple;
+            font-size: 24px;
+        
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="dropArea">
+            <span>Dosyalarınızı Buraya Sürükleyebilirsiniz</span>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
