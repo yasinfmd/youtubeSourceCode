@@ -1,0 +1,6 @@
+.hwordsass {
+   background-color: red;
+   & > div {
+      background-color: yellow;
+   }
+}
