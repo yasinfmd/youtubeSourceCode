@@ -1,0 +1,10 @@
+.one{
+  background: red;
+  padding: 40px;
+  border: 3px solid blue;
+
+  & .two{
+    background: brown;
+    font-size: 20px;
+  }
+}
