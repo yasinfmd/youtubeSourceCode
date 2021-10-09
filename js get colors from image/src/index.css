@@ -1,0 +1,16 @@
+.imageArea {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.imageArea > img {
+   width: 500px;
+   height: 500px;
+}
+
+#colors {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   justify-content: center;
+}
