@@ -1,0 +1,11 @@
+{
+    "name":"Webci Yasin",
+    "description":"Webci Yasin",
+    "version":"1.10",
+    "manifest_version":3,
+    "action":{
+          "default_title": "Google Mail",
+        "default_popup":"popup.html",
+       "default_icon": "channel.jpg" 
+    }
+}
