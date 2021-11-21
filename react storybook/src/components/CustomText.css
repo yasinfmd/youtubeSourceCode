@@ -1,0 +1,22 @@
+.custom-text {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.custom-text-title {
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+.custom-text-content {
+   font-size: 14px;
+   color: blue;
+}
+
+.bold {
+   font-weight: 900;
+}
