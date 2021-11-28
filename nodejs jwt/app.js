@@ -14,9 +14,10 @@ router.post('/login', function (req, res, next) {
     const token = jwt.sign({
         email: email,
         ad: 'Yasin',
-        exp: Math.floor(Date.now() / 1000) + 60,
         issuer: 'www.yayinci.com'
-    }, 'secretKey')
+    }, 'secretKey', {
+        expiresIn: "60s",
+    })
     res.send(token)
 })
 router.post('/posts', checkJwt, function (req, res, next) {
