@@ -1,0 +1,72 @@
+/* add css module styles here (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+.youtubeButton{
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.youtubeButton.m{
+  height: 40px;
+}
+.youtubeButton.s{
+  border-radius: 4px;
+  height: 24px;
+  font-size:11px ;
+}
+.youtubeButton.l{
+  height: 60px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.youtubeButton.success{
+  background-color: #4caf50;
+}
+.youtubeButton.primary{
+  background-color: #008cba;
+}
+.youtubeButton.danger{
+  background-color: #f44336;
+}
+.youtubeButton.secondary{
+  background-color: #e7e7e7;
+}
+.youtubeButton.dark{
+  background-color: #555555;
+}
+
+
+.youtubeInput{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+}
+.youtubeInput.s{
+  height: 32px;
+  font-size: 12px;
+}
+.youtubeInput.m{
+  height: 40px;
+  font-size: 16px;
+}
+.youtubeInput.l{
+  height: 60px;
+  font-size: 20px;
+}
