@@ -1,14 +1,11 @@
-const express=require("express")
+const express = require("express")
+const router = express.Router()
+const blogsController = require('../../controllers/blogs/blogsController')
 
-const router=express.Router()
 
-router.get("/getAll",(req,res)=>{
-        res.send("Blogs")
-})
-router.get("/getById/:blogId",(req,res)=>{
-    res.send("Blogs With Id")
-})
+router.get("/getAll", blogsController.getAll)
+router.get("/getById/:blogId", blogsController.getById)
 
-module.exports={
-    blogs:router
+module.exports = {
+    blogs: router
 }
