@@ -1,6 +1,8 @@
 const serverConfig = require('./serverConfig')
+const mongoDbConfig = require('./mongoDbConfig')
 
 
 module.exports = {
-    serverConfig: serverConfig
+    serverConfig: serverConfig,
+    mongoDbConfig: mongoDbConfig
 }
