@@ -5,16 +5,14 @@ const helmet = require("helmet");
 const configs = require('./configs/config')
 const db = require('./db/db')
 const swaggerUI = require("swagger-ui-express")
+const utils = require('./utils/utils')
 configs.serverConfig.installServerConfigs()
-
 app.use(helmet())
 app.use(express.json())
-
 app.use(`${process.env.APP_PREFIX}user`, routes.user)
 app.use(`${process.env.APP_PREFIX}blog`, routes.blog)
 
-
-
+utils.helper.createUploadDir(process.env.UPLOAD_DIR)
 
 
 app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(configs.swaggerConfig.swaggerDocs))
