@@ -19,14 +19,19 @@ const utils = require('../../utils/utils')
  *              schema:
  *                type: array  
  */
-exports.getAll = (req, res, next) => {
-    res.json([{ ad: "Yasin" }, { ad: "Ali" }]).status(200)
+exports.getAll = async (req, res, next) => {
+    try {
+        const result = await userService.getAll()
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
 }
 
 exports.create = async (req, res, next) => {
     try {
         const result = await userService.create(req)
-        console.log("r", result)
         res.json(result).status(StatusCodes.OK)
     } catch (error) {
         utils.logger.error(error.message)
@@ -35,6 +40,17 @@ exports.create = async (req, res, next) => {
 
 }
 
-exports.getById = (req, res, next) => {
-    res.send("Users With Id")
+exports.getById = async (req, res, next) => {
+    try {
+        const result = await userService.getById(req)
+        if (result) {
+            res.json(result).status(StatusCodes.OK)
+        } else {
+            utils.logger.error(`${req.params.userId} kayıt bulunamadı`)
+            res.json({ userId: req.params.userId, message: "Kayıt Yok" }).status(StatusCodes.OK)
+        }
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
 }

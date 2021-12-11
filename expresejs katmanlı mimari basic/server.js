@@ -6,11 +6,14 @@ const configs = require('./configs/config')
 const db = require('./db/db')
 const swaggerUI = require("swagger-ui-express")
 const utils = require('./utils/utils')
+const path = require('path')
 configs.serverConfig.installServerConfigs()
 app.use(helmet())
 app.use(express.json())
 app.use(`${process.env.APP_PREFIX}user`, routes.user)
 app.use(`${process.env.APP_PREFIX}blog`, routes.blog)
+
+app.use(process.env.FILE_PATH, express.static(path.join(__dirname, process.env.FILE_PATH)))
 
 utils.helper.createUploadDir(process.env.UPLOAD_DIR)
 

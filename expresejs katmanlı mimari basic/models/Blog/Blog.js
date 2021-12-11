@@ -21,7 +21,7 @@ const blogSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: "user"
     }
-}, { timestamps: true })
+}, { timestamps: true, versionKey: false })
 
 const Blog = mongoose.model("Blog", blogSchema, "blog")
 module.exports = Blog
