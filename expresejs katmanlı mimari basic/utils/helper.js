@@ -1,4 +1,6 @@
 const fs = require('fs')
+const jwt = require('jsonwebtoken')
+
 const hashString = (str) => {
     const md5 = require('md5')
     return md5(str)
@@ -30,8 +32,26 @@ const deleteFileFromDisk = (fileName) => {
     return true
 }
 
-const createToken = () => {
-    const jwt = require('jsonwebtoken')
+const verifyToken = (token) => {
+    const isVerify = { decodedToken: null }
+    try {
+        const decodedToken = jwt.verify(token, process.env.SECRET)
+        isVerify.decodedToken = decodedToken
+    } catch (e) {
+        isVerify.decodedToken = null
+    }
+    return isVerify
+}
+const createToken = (data) => {
+    const token = jwt.sign({
+        userId: data._id,
+        fullName: data.full_name,
+        email: data.email
+    }, process.env.SECRET, {
+        issuer: "localhost",
+        expiresIn: process.env.EXPIRESIN
+    })
+    return token
 
 }
 
@@ -39,6 +59,8 @@ module.exports = {
     hashString: hashString,
     createUploadDir: createUploadDir,
     getHost: getHost,
-    deleteFileFromDisk: deleteFileFromDisk
+    deleteFileFromDisk: deleteFileFromDisk,
+    createToken: createToken,
+    verifyToken: verifyToken
 }
 

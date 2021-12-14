@@ -21,6 +21,9 @@ const userDataAccess = {
     },
     async isExistUser(userId) {
         return await User.exists({ _id: userId })
+    },
+    async findByQuery(where, fields) {
+        return await User.findOne(where).select(fields)
     }
 }
 

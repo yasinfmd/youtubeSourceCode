@@ -40,6 +40,16 @@ exports.create = async (req, res, next) => {
 
 }
 
+exports.signIn = async (req, res, next) => {
+    try {
+        const result = await userService.signIn(req)
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
+}
+
 exports.updateById = async (req, res, next) => {
     try {
         const result = await userService.updateUserById(req)

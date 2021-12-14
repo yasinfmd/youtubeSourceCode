@@ -6,6 +6,28 @@ const dtos = require('../../dto/dtos')
 const userService = {
     // TODO  , BLOG!, VALIDATIONS  EKLENECEK
 
+    async signIn(request) {
+        const { email, password } = request.body
+
+        const user = await userDal.findByQuery({ email, password: utils.helper.hashString(password) }, "email full_name")
+        if (user) {
+            dtos.baseResponse.data = {
+                user,
+                token: utils.helper.createToken(user)
+            }
+            dtos.baseResponse.success = true
+            dtos.baseResponse.statusCode = 556565
+        } else {
+            utils.logger.error(`${email} ${password} ${utils.helper.hashString(password)}  kişi bulunamadı`)
+            dtos.baseResponse.data = ""
+            dtos.baseResponse.success = false
+            dtos.baseResponse.statusCode = 556565
+        }
+
+        return dtos.baseResponse
+
+    },
+
     async updatePhoto(request) {
         const file = request.file
         const { userId } = request.query
