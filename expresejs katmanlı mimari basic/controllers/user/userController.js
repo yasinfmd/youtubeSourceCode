@@ -40,15 +40,57 @@ exports.create = async (req, res, next) => {
 
 }
 
+exports.updateById = async (req, res, next) => {
+    try {
+        const result = await userService.updateUserById(req)
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
+
+}
+
+exports.findByEmail = async (req, res, next) => {
+    try {
+        const result = await userService.findByEmail(req)
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
+
+}
+
+exports.findByName = async (req, res, next) => {
+    try {
+        const result = await userService.findByName(req)
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
+
+}
+
+exports.updateProfilePicture = async (req, res, next) => {
+    try {
+        const result = await userService.updatePhoto(req)
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
+
+}
+
+
+
+
 exports.getById = async (req, res, next) => {
     try {
         const result = await userService.getById(req)
-        if (result) {
-            res.json(result).status(StatusCodes.OK)
-        } else {
-            utils.logger.error(`${req.params.userId} kayıt bulunamadı`)
-            res.json({ userId: req.params.userId, message: "Kayıt Yok" }).status(StatusCodes.OK)
-        }
+        res.json(result).status(StatusCodes.OK)
     } catch (error) {
         utils.logger.error(error.message)
         res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)

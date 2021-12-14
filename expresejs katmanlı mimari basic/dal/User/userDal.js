@@ -7,8 +7,20 @@ const userDataAccess = {
     async findById(userId) {
         return await User.findById(userId)
     },
+    async findByEmail(email) {
+        return await User.findOne({ email })
+    },
+    async findByName(name) {
+        return await User.findOne({ name })
+    },
     async getAll() {
         return await User.find()
+    },
+    async updateById(userId, userModel) {
+        return await User.findByIdAndUpdate(userId, userModel, { new: true })
+    },
+    async isExistUser(userId) {
+        return await User.exists({ _id: userId })
     }
 }
 
