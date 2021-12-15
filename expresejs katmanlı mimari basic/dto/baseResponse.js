@@ -3,5 +3,6 @@ module.exports = {
     success: true,
     data: {},
     message: "",
-    statusCode: ""
+    statusCode: "",
+    errors: []
 }

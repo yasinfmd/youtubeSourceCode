@@ -53,6 +53,9 @@ exports.signIn = async (req, res, next) => {
 exports.updateById = async (req, res, next) => {
     try {
         const result = await userService.updateUserById(req)
+        if (result.data === null) {
+            res.status(StatusCodes.BAD_REQUEST).json(result)
+        }
         res.json(result).status(StatusCodes.OK)
     } catch (error) {
         utils.logger.error(error.message)

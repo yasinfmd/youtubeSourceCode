@@ -2,10 +2,13 @@ const User = require('../../models/User/User')
 const utils = require('../../utils/utils')
 const userDal = require('../../dal/User/userDal')
 const dtos = require('../../dto/dtos')
+const { validationResult } = require("express-validator")
 
 const userService = {
-    // TODO  , BLOG!, VALIDATIONS  EKLENECEK
+    // TODO  , BLOG!,
 
+    // Kişiye Ait Blogları Getir !
+    // GetAll pagination ? !
     async signIn(request) {
         const { email, password } = request.body
 
@@ -35,7 +38,6 @@ const userService = {
         const ip = await utils.helper.getHost()
         if (findedUser) {
             const file_name = findedUser.profile_picture.split("/uploads/images/")
-            console.log(file_name)
             const fileResult = utils.helper.deleteFileFromDisk(file_name[1])
             if (fileResult) {
                 findedUser.profile_picture = `${ip}${process.env.FILE_PATH}/${file.filename}`
@@ -82,7 +84,6 @@ const userService = {
             utils.logger.error(`${email} email değerine sahip kullanıcı bulunamadı`)
             dtos.baseResponse.data = ""
             dtos.baseResponse.success = false
-
         }
         dtos.baseResponse.message = result ? "User Emaila Göre Başarıyla Geldi" : "Email Mevcut Değil Kullanılabilir"
         dtos.baseResponse.statusCode = 10001
@@ -92,15 +93,25 @@ const userService = {
     async updateUserById(request) {
         const { userId } = request.params
         const { name, surname, age, gender, activity_areas } = request.body
-        const result = await userDal.isExistUser(userId)
-        if (result) {
-            dtos.baseResponse.data = await userDal.updateById(userId, { name, surname, age, gender, activity_areas, full_name: `${name} ${surname}` })
-            dtos.baseResponse.message = "User  Başarıyla Güncellendi"
-            dtos.baseResponse.statusCode = 10003
-        } else {
+        const errors = validationResult(request)
+        if (!errors.isEmpty()) {
+            dtos.baseResponse.message = "User Verileri Geçersiz "
+            dtos.baseResponse.statusCode = 566654
             dtos.baseResponse.success = false
-            dtos.baseResponse.message = "User  Bulunamadığı için Güncellenmedi"
-            dtos.baseResponse.statusCode = 10003
+            dtos.baseResponse.errors = errors.array({ onlyFirstError: true })
+            dtos.baseResponse.data = null
+        } else {
+            const result = await userDal.isExistUser(userId)
+            if (result) {
+                dtos.baseResponse.data = await userDal.updateById(userId, { name, surname, age, gender, activity_areas, full_name: `${name} ${surname}` })
+                dtos.baseResponse.message = "User  Başarıyla Güncellendi"
+                dtos.baseResponse.statusCode = 10003
+            } else {
+                dtos.baseResponse.success = false
+                dtos.baseResponse.message = "User  Bulunamadığı için Güncellenmedi"
+                dtos.baseResponse.statusCode = 10003
+            }
+
         }
         return dtos.baseResponse
     },
@@ -110,13 +121,6 @@ const userService = {
         dtos.baseResponse.statusCode = 10003
         return dtos.baseResponse
     },
-
-    async login(request) {
-        const { email, password } = request.body
-
-        // TODO !
-    },
-
     async getById(request) {
         const { userId } = request.params
         const result = await userDal.findById(userId)
@@ -147,6 +151,10 @@ const userService = {
             activity_areas,
             blogs: []
         })
+
+        // Mail at !
+        //rabitmq bağlan
+        //consumer olustur vs vs !
         dtos.baseResponse.data = await userDal.create(user)
         dtos.baseResponse.message = "User Başarıyla Oluşturuldu"
         dtos.baseResponse.statusCode = 10002
