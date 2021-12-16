@@ -12,6 +12,9 @@ router.post("/create", [upload.single("photo")], userController.create)
 router.get("/findByName", userController.findByName)
 router.post("/updateProfilePhoto", [upload.single("photo")], userController.updateProfilePicture)
 router.post("/signIn", userController.signIn)
+router.get("/getBlogs/:userId", userController.getBlogsById)
+router.get("/getBlogsByName/:userId", userController.getBlogsByName)
+
 
 module.exports = {
     users: router

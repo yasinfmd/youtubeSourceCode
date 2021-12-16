@@ -1,8 +1,8 @@
 const Blog = require('../../models/Blog/Blog')
 
 const blogDataAccess = {
-    async create(userModel) {
-        return await userModel.save()
+    async create(blogModel) {
+        return await blogModel.save()
     },
     async findById(userId) {
         return await Blog.findById(userId)

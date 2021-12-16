@@ -24,7 +24,21 @@ const userDataAccess = {
     },
     async findByQuery(where, fields) {
         return await User.findOne(where).select(fields)
-    }
+    },
+    async getBlogsById(userId) {
+        return await User.findOne({ _id: userId }).populate({
+            path: "blogs",
+            select: "text date"
+        })
+    },
+    async getBlogByName(text, userId) {
+        return await User.findOne({ _id: userId }).populate({
+            path: "blogs",
+            select: "text date",
+            match: { text: text }
+        })
+    },
+
 }
 
 module.exports = userDataAccess

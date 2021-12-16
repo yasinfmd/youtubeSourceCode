@@ -29,6 +29,32 @@ exports.getAll = async (req, res, next) => {
     }
 }
 
+
+
+exports.getBlogsById = async (req, res, next) => {
+    try {
+        const result = await userService.getBlogsById(req)
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
+
+}
+
+exports.getBlogsByName = async (req, res, next) => {
+    try {
+        const result = await userService.getBlogsByName(req)
+        res.json(result).status(StatusCodes.OK)
+    } catch (error) {
+        utils.logger.error(error.message)
+        res.json({ error: error.message, code: "XYZ_101", timestamp: Date.now() }).status(StatusCodes.INTERNAL_SERVER_ERROR)
+    }
+
+}
+
+
+
 exports.create = async (req, res, next) => {
     try {
         const result = await userService.create(req)

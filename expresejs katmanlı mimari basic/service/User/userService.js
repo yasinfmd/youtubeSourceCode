@@ -5,10 +5,7 @@ const dtos = require('../../dto/dtos')
 const { validationResult } = require("express-validator")
 
 const userService = {
-    // TODO  , BLOG!,
 
-    // Kişiye Ait Blogları Getir !
-    // GetAll pagination ? !
     async signIn(request) {
         const { email, password } = request.body
 
@@ -31,6 +28,26 @@ const userService = {
 
     },
 
+    async getBlogsById(request) {
+        const { userId } = request.params
+        // KONTROLLER !
+
+        dtos.baseResponse.data = await userDal.getBlogsById(userId)
+        dtos.baseResponse.message = "User  Blogları Geldi"
+        dtos.baseResponse.statusCode = 787878
+        return dtos.baseResponse
+    },
+    async getBlogsByName(request) {
+        const { userId } = request.params
+
+        const { blogName } = request.query
+        //KONTROLLER !
+        dtos.baseResponse.data = await userDal.getBlogByName(blogName, userId)
+        dtos.baseResponse.message = "User  Belirbi Bir Blog Geldi"
+        dtos.baseResponse.statusCode = 787878
+        return dtos.baseResponse
+
+    },
     async updatePhoto(request) {
         const file = request.file
         const { userId } = request.query
