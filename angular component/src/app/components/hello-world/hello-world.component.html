@@ -1,7 +1,9 @@
 <div class="hello-world">
-    Ben Hello World Componentiyim :)
+    Ben  {{messageName}} Componentiyim :) ,
 </div>
 
 <div>
-    {{componentName}}
+    {{componentName}} ve Benim Çağırıldıgım yer {{customMessage}}
 </div>
+
+<button (click)="sendParentOnClick()"   >Tıkla Yukarıya Veri Gönder :)</button>
