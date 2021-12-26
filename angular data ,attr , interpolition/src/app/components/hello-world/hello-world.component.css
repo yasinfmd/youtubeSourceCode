@@ -1,0 +1,13 @@
+.hello-world {
+  font-size: 16px;
+  background: rebeccapurple;
+  border-radius: 16px;
+  width: 250px;
+  height: 32px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  font-weight: bold;
+}

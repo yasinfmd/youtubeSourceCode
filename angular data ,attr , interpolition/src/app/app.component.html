@@ -1,0 +1,17 @@
+<div>
+  Merhaba Angular App
+</div>
+
+<h2>Benim Title {{title}}</h2>
+{{1>0 ? 20:30}}
+<p>3 + 5 ={{3+5}}</p>
+<p>Adımı Büyük Harflerle Yazacağım {{myName.toLocaleUpperCase()}} </p>
+
+<p [innerText]="pInnerText"></p> <br/>
+<button (click)="clickCustomBtn()"  [disabled]="btnDisabled" [id]="'customId'" >Test Butonudur :)</button><br/><br/>
+
+<input type="text" (input)="onInput($event)"   [(ngModel)]="inputVal"><br/>
+
+{{inputVal}}
+
+<app-hello-world  (customClick)="clicked($event)" (clickEventMessage)="clicked($event)"  parentName="App Componenti" messageName="Hellooo"></app-hello-world>
