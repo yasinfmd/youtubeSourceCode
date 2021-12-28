@@ -1,0 +1,22 @@
+<p *ngIf="number1<11;else numberElseBlock">Ben Sayı 11 den küçük olursa görünürüm</p>
+
+<ng-template #numberElseBlock>
+  <h1>Ben Sayı 10 dan büyükse çalısırım</h1>
+</ng-template>
+
+
+<p *ngIf="5<1;then thenBlock;else elseBlock;">Şart Blogu</p>
+
+<ng-template #thenBlock>
+  <div>
+    Selam !
+
+  </div>
+</ng-template>
+
+<ng-template #elseBlock>
+  <span>
+      Hi :)
+
+  </span>
+</ng-template>
