@@ -1,0 +1,39 @@
+<div [ngStyle]="{'font-size':fontSize,'color':color,backgroundColor:'black'}">
+  Ng Style
+</div>
+
+
+<div [ngStyle]="myStyleObj">
+  Other Ng Style Element
+</div>
+
+<div style="font-size: 90px"  [style]="'color:'+customColor">
+  MErhaba
+</div>
+
+
+
+<div [ngClass]="myClass" >
+  Ng Class 1
+</div>
+
+<div [ngClass]="['myClass','secondClass']">
+  Ng Class 2
+</div>
+
+<div [ngClass]="{'myClass':1>0,'secondClass':0>1}">
+  NgClass 3
+</div>
+
+<div [ngClass]="{'myClass secondClass':1>10}">
+
+  NgClass 4
+</div>
+
+<div [class.myClass]="10>20">
+  NotrmalClass
+</div>
+
+<div [class]="myClass">
+  MyClass
+</div>
