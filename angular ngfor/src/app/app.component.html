@@ -1,0 +1,15 @@
+<div *ngFor="let item of myArray;let i=index;first as isFirst;last as isLast ; let c=count ; even as Eve ; odd as Od">
+
+<b *ngIf="Od">
+  {{item}}
+</b>
+  <p *ngIf="Eve">
+    {{item}}
+  </p>
+  <p *ngIf="isFirst">İlk Elemandır</p>
+
+  {{i+1}}
+  <h1 *ngIf="isLast">Ben Son Elemanım</h1>
+
+  <div>Eleman Sayısı : {{c}}</div>
+</div>
