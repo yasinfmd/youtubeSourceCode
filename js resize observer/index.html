@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .resize{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="resize">
+        Resize Observer
+    </div>
+
+ <script>
+
+const resizeBox=document.querySelector('.resize')
+const observer=new ResizeObserver((ent)=>{
+    const boxElement=ent[0].target
+    const isSmallerThan=ent[0].contentRect.width<800
+    boxElement.style.backgroundColor=isSmallerThan?"purple":"red"
+    //observer.unobserve(resizeBox)
+
+    observer.disconnect()
+})
+
+observer.observe(resizeBox)
+
+ </script>
+</body>
+</html>
