@@ -1,0 +1,16 @@
+
+<div [ngSwitch]="value">
+  <p *ngSwitchCase="10">
+    Sayı 10
+  </p>
+  <p *ngSwitchCase="20">
+    Sayı 20
+  </p>
+
+  <p *ngSwitchDefault>
+    Default Değer
+  </p>
+</div>
+<button (click)="changeNumber(20)">Sayıyı 20 yap</button>
+
+<button (click)="changeNumber(100)">Sayıyı 100 Yap</button>
