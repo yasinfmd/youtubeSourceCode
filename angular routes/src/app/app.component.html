@@ -1,0 +1,24 @@
+<div>Angular Routers</div>
+
+<header>
+  <div style="display: flex">
+    <button (click)="goUsers()">Kullanıcılara Git</button>
+    <p routerLink="/" style="margin-right: 16px" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" >Anasayfa</p>
+    <p routerLink="/users" routerLinkActive="active">Kullanıcılar</p>
+
+    <p routerLink="/users/5" routerLinkActive="active">Kullanıcılar Parametreli</p>
+
+    <p routerLink="/users/5" routerLinkActive="active" [queryParams]="{ad:'yasin',soyad:'dalkılıç'}">Kullanıcılar QueryString</p>
+
+
+  </div>
+
+</header>
+
+
+<section>
+  <router-outlet></router-outlet>
+</section>
+
+
+<footer>Footer</footer>
