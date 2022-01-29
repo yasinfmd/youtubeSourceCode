@@ -1,0 +1,43 @@
+<button (click)="suggestMockData()">Mock Data Öner</button>
+
+<form (ngSubmit)="onSubmit()" #f="ngForm">
+  <div ngModelGroup="userData">
+  <div>
+    <label for="fname">First Name</label><br/>
+    <input type="tel" autocomplete="off" id="fname" name="fname" ngModel required  #fname="ngModel"> <br/>
+
+    Geçerlimi {{fname.valid}} <br/>
+
+    Touch {{fname.touched}} <br/>
+
+    Pristine {{fname.pristine}} <br/>
+
+
+    Untouch {{fname.untouched}} <br/>
+
+    Dirty {{fname.dirty}} <br/>
+
+
+
+  </div>
+
+    <div>
+      <label for="lname">Last Name</label><br/>
+      <input type="text" id="lname" name="lname" ngModel> <br/>
+    </div>
+
+  </div>
+
+
+
+
+  <div>
+    <select  name="favorites" id="favorites" [ngModel]="defaultData">
+      <option value="deneme1">Deneme 1</option>
+      <option value="deneme2">Deneme 2</option>
+      <option value="deneme3">Deneme 3</option>
+
+    </select>
+  </div>
+    <input [disabled]="f.valid"  type="submit" value="Gönder Gelsin">
+</form>
