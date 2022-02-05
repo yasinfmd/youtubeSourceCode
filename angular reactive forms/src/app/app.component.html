@@ -1,0 +1,33 @@
+<button (click)="showData()">Değer Göster</button>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="fname">First Name</label><br/>
+    <input type="tel"
+           formControlName="fname"
+           autocomplete="off" id="fname" name="fname"> <br/>
+
+    {{myForm.get('fname').valid}}
+  </div>
+  <div>
+    <label for="lname">Last Name</label><br/>
+    <input type="text"
+           formControlName="lname"
+           id="lname" name="lname"> <br/>
+  </div>
+  <div formArrayName="numbers">
+    <button (click)="addNewNumber()">Yeni Numara Ekle</button>
+    <div *ngFor="let ctrl of myForm.get('numbers').controls;let i=index">
+      <input [formControlName]="i" >
+    </div>
+  </div>
+  <div>
+    <select name="favorites" id="favorites" formControlName="favorites"
+    >
+      <option value="deneme1">Deneme 1</option>
+      <option value="deneme2">Deneme 2</option>
+      <option value="deneme3">Deneme 3</option>
+
+    </select>
+  </div>
+  <input     type="submit" value="Gönder Gelsin">
+</form>
