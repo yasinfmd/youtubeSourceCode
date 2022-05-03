@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App </title>
+
+  <link rel="stylesheet"  href='/main.css'/>
+  <script src="/main.js"></script>
+</head>
+<body>
+User Sayfası
+{{#if number}}
+    <p>Data Var {{number}}</p>
+{{else}}
+  <h1>Data Yok</h1>
+  {{/if}}
+<ul>
+  {{#each data}}
+    <li id="item{{this.id}}" onclick="deleteItem({{this.id}})" >{{this.name}}</li>
+    {{/each}}
+</ul>
+</body>
+</html>
