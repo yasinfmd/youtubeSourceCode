@@ -1,0 +1,17 @@
+.clock{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border: solid 4px transparent;
+    border-image: linear-gradient(45deg,purple,pink);
+    border-image-slice:1 ;
+    position: relative;
+}
+
+.number{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(30deg);
+}
