@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    background-color: #141414;
+
+}
+.game-area{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.keyboard-area{
+    box-sizing: border-box;
+    height: 80vh;
+    padding: 300px;
+}
+.keyboard-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 20px;
+}
+.keyboard-item{
+    padding: 8px;
+    font-size: 32px;
+    color: #fff;
+    border-radius: 16px;
+    border: 1px solid #13c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.keyboard-item:hover{
+    box-shadow: 0 0 .2rem #fff , 0 0 .4rem #fff , 0 0 1rem #08979c , 0 0 .4rem #08979c, 0 0 1rem #08979c , inset 0 0 1.5rem #13c2c2;
+    background-color: #1f1f1f;
+    color:#13c2c2 ;
+}
+.disabled{
+    border-color: #141414;
+}
+.points-wrapper{
+    display: flex;
+}
+.remaining-point{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.total-point{
+    color: #13c2c2;
+    font-size: 24px;
+}
+.letter-wrapper{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.letter-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #fff;
+    color: #13c2c2;
+    margin-right: 16px;
+    transition: all 1s ease;
+}
+.you-win{
+    margin-top: 20px;
+    color: greenyellow;
+    font-size: 24px;
+}
+.you-lose{
+    margin-top: 20px;
+    font-size: 24px;
+    color: red;
+}
