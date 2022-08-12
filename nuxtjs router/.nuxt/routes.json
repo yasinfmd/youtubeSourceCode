@@ -1,0 +1,45 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\my-nuxt-app\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_25cec7aa"
+  },
+  {
+    "path": "/items",
+    "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\my-nuxt-app\\\\pages\\\\items.vue",
+    "chunkName": "pages/items",
+    "children": [
+      {
+        "name": "items",
+        "path": "",
+        "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\my-nuxt-app\\\\pages\\\\items\\\\index.vue",
+        "chunkName": "pages/items/index",
+        "_name": "_63ed6fe4"
+      },
+      {
+        "name": "items-id",
+        "path": ":id",
+        "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\my-nuxt-app\\\\pages\\\\items\\\\_id.vue",
+        "chunkName": "pages/items/_id",
+        "_name": "_f9c3c968"
+      }
+    ],
+    "_name": "_8343e244"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\my-nuxt-app\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_0cd076f0"
+  },
+  {
+    "name": "slug-deneme",
+    "path": "/:slug/deneme",
+    "component": "C:\\\\Users\\\\pc\\\\Desktop\\\\my-nuxt-app\\\\pages\\\\_slug\\\\deneme.vue",
+    "chunkName": "pages/_slug/deneme",
+    "_name": "_6a6b96b8"
+  }
+]
