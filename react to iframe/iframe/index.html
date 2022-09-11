@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>Ben İframe</div>
+    <button id="sendToParent">Parent'a Gönder</button>
+    <script>
+        document.getElementById('sendToParent').addEventListener('click', () => {
+            console.log('Selam')
+            parent.postMessage("loadMyOrders", "*")
+        })
+        window.addEventListener('message', (e) => {
+            console.log('e', e)
+                //  parent.postMessage("loadMyOrders", "*")
+                //window.parent.postMessage('Merhaba', "http://localhost:3000/")
+
+        })
+    </script>
+
+</body>
+
+</html>
