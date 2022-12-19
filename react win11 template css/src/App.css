@@ -1,0 +1,73 @@
+
+.bottomBar{
+    box-sizing: border-box;
+    background-color: rgba(252, 252, 252, 0.85);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 48px;
+    backdrop-filter: blur(30px);
+    display: flex;
+    align-items: center;
+}
+.centerBottomBar{
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.systemTrayBar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 30px;
+}
+
+.iconsWrapper{
+    box-sizing: border-box;
+    display: flex;
+    gap: 6px;
+}
+
+.icon{
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon:hover{
+    background-color: rgba(252, 252, 252, 0.5);
+}
+
+.mr20{
+    margin-right: 20px;
+}
+.mr6{
+    margin-right: 6px;
+}
+.clockBar{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+align-items: flex-end;
+
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.8956);
+}
+
+.ml20{
+    margin-left: 20px;
+}
+.systemTrayBar > div > svg:hover{
+    cursor: pointer;
+    background-color: rgba(252, 252, 252, 0.5);
+
+}
