@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:3:9-50
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:2:9-55
+	xmlns:android
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+	tools:overrideLibrary
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:15-66
+	android:targetSdkVersion
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml

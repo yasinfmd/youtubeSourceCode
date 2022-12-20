@@ -1,0 +1,15 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="io.flutter.plugins.quickactions" >
+5
+6    <uses-sdk
+6-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+7        android:minSdkVersion="16"
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+8        android:targetSdkVersion="16"
+8-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:5-68
+9        tools:overrideLibrary="android_libs.ub_uiautomator" />
+9-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\quick_actions_android-1.0.0\android\src\main\AndroidManifest.xml:5:15-66
+10
+11</manifest>
