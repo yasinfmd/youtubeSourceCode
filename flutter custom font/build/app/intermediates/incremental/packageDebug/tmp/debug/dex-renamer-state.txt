@@ -1,0 +1,4 @@
+#Tue Jan 03 21:21:28 TRT 2023
+base.0=C\:\\Users\\pc\\Desktop\\flutter\\custom_font_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
