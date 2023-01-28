@@ -1,0 +1,37 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="flutter.plugins.contactsservice.contactsservice" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+8
+9    <queries>
+9-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:3:5-13:15
+10        <intent>
+10-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:4:9-6:18
+11            <action android:name="android.accounts.AccountAuthenticator" />
+11-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:5:13-76
+11-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:5:21-73
+12        </intent>
+13        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+14        <intent>
+14-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:8:9-12:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:9:13-65
+15-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:9:21-62
+16
+17            <data
+17-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:10:13-11:64
+18                android:host="com.android.contacts"
+18-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:10:44-79
+19                android:mimeType="vnd.android.cursor.item/*"
+19-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:11:17-61
+20                android:scheme="content" />
+20-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:10:19-43
+21        </intent>
+22    </queries>
+23
+24</manifest>

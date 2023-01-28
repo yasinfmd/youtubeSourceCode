@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="flutter.plugins.contactsservice.contactsservice" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <queries>
+        <intent>
+            <action android:name="android.accounts.AccountAuthenticator" />
+        </intent>
+        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data
+                android:host="com.android.contacts"
+                android:mimeType="vnd.android.cursor.item/*"
+                android:scheme="content" />
+        </intent>
+    </queries>
+
+</manifest>

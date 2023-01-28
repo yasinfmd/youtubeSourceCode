@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:1:1-14:12
+	package
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:2:3-60
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:1:11-69
+queries
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:3:5-13:15
+intent#action:name:android.accounts.AccountAuthenticator
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:4:9-6:18
+action#android.accounts.AccountAuthenticator
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:5:13-76
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:5:21-73
+intent#action:name:android.intent.action.VIEW+data:host:com.android.contacts+data:mimeType:vnd.android.cursor.item/*+data:scheme:content
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:8:9-12:18
+action#android.intent.action.VIEW
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:9:13-65
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:9:21-62
+data
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:10:13-11:64
+	android:host
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:10:44-79
+	android:scheme
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:10:19-43
+	android:mimeType
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml:11:17-61
+uses-sdk
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\contacts_service-0.6.3\android\src\main\AndroidManifest.xml
