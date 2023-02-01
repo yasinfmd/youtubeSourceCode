@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.permissions"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:8:5-65
+16-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:8:22-62
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:9:5-72
+17-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:9:22-69
+18    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+18-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:10:5-73
+18-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:10:22-70
+19    <uses-permission android:name="android.permission.READ_CALENDAR" />
+19-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:11:5-72
+19-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:11:22-69
+20    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+20-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:12:5-73
+20-->C:\Users\pc\Desktop\flutter\permissions\android\app\src\debug\AndroidManifest.xml:12:22-70
+21
+22    <application
+23        android:name="android.app.Application"
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.6.0] C:\Users\pc\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+27        android:label="permissions" >
+28        <activity
+29            android:name="com.example.permissions.MainActivity"
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31            android:exported="true"
+32            android:hardwareAccelerated="true"
+33            android:launchMode="singleTop"
+34            android:theme="@style/LaunchTheme"
+35            android:windowSoftInputMode="adjustResize" >
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+44                android:name="io.flutter.embedding.android.NormalTheme"
+45                android:resource="@style/NormalTheme" />
+46
+47            <intent-filter>
+48                <action android:name="android.intent.action.MAIN" />
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+58            android:name="flutterEmbedding"
+59            android:value="2" />
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+67    </application>
+68
+69</manifest>
