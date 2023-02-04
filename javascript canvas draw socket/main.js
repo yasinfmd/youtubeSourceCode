@@ -6,8 +6,6 @@ const ctx=canvas.getContext('2d')
 
 let coord={x:0,y:0}
 const start=(event)=>{
-    ctx.canvas.width=window.innerWidth
-    ctx.canvas.height=window.innerHeight
     document.addEventListener('mousemove',draw)
     coord.x=event.clientX-canvas.offsetLeft
     coord.y=event.clientY-canvas.offsetTop
@@ -63,3 +61,5 @@ socket.on('draw',(event)=>{
 window.addEventListener('resize',resize)
 document.addEventListener('mousedown',start)
 document.addEventListener('mouseup',stop)
+
+document.addEventListener("DOMContentLoaded", resize);
