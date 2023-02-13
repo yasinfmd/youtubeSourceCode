@@ -1,0 +1,8 @@
+---
+interface Props{
+    post:any
+}
+ const {post}:Props=Astro.props
+---
+
+<h1>{JSON.stringify(post)}</h1>
