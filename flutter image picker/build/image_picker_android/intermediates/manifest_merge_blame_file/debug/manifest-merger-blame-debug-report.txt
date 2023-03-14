@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.imagepicker" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml
+8
+9    <application>
+9-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:4:5-14:19
+10        <provider
+10-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:5:9-13:20
+11            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+11-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:6:13-82
+12            android:authorities="${applicationId}.flutter.image_provider"
+12-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:7:13-74
+13            android:exported="false"
+13-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:8:13-37
+14            android:grantUriPermissions="true" >
+14-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:9:13-47
+15            <meta-data
+15-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:10:13-12:75
+16                android:name="android.support.FILE_PROVIDER_PATHS"
+16-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:11:17-67
+17                android:resource="@xml/flutter_image_picker_file_paths" />
+17-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.6+1\android\src\main\AndroidManifest.xml:12:17-72
+18        </provider>
+19    </application>
+20
+21</manifest>
