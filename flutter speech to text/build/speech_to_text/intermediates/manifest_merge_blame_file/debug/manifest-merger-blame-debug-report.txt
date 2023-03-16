@@ -1,0 +1,15 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.csdcorp.speech_to_text" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text-6.1.1\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="21" />
+7-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text-6.1.1\android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+9-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text-6.1.1\android\src\main\AndroidManifest.xml:4:5-76
+9-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text-6.1.1\android\src\main\AndroidManifest.xml:4:22-73
+10
+11</manifest>
