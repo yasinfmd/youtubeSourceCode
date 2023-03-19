@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color semitransparent
+drawable card_border
+drawable ic_anim_rectangle
+drawable ic_back_arrow
+drawable ic_scan_border
+id backButton
+id cameraView
+id left
+id right
+id scannerBar
+id scannerLayout
+layout card_scanner_camera_activity

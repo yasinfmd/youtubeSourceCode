@@ -1,0 +1,49 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:5:19-61
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:6:22-62
+application
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:8:5-17:19
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:9:9-11:35
+	android:value
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:11:13-32
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:10:13-64
+activity#com.nateshmbhat.card_scanner.CardScannerCameraActivity
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:12:9-16:20
+	android:screenOrientation
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:14:13-49
+	android:theme
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:15:13-51
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml:13:13-54
+uses-sdk
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\card_scanner-0.2.2\android\src\main\AndroidManifest.xml
