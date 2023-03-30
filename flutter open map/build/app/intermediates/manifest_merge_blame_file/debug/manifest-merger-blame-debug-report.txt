@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.map_launcher_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\pc\Desktop\flutter\map_launcher_app\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\pc\Desktop\flutter\map_launcher_app\android\app\src\debug\AndroidManifest.xml:7:22-64
+16
+17    <queries>
+17-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-25:15
+18        <package android:name="com.google.android.apps.maps" />
+18-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-64
+18-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-61
+19        <package android:name="com.google.android.apps.mapslite" />
+19-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-68
+19-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-65
+20        <package android:name="com.autonavi.minimap" />
+20-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-56
+20-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-53
+21        <package android:name="com.baidu.BaiduMap" />
+21-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-54
+21-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-51
+22        <package android:name="com.waze" />
+22-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-44
+22-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-41
+23        <package android:name="ru.yandex.yandexnavi" />
+23-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-56
+23-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:15:18-53
+24        <package android:name="ru.yandex.yandexmaps" />
+24-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-56
+24-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:16:18-53
+25        <package android:name="com.citymapper.app.release" />
+25-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-62
+25-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:17:18-59
+26        <package android:name="com.mapswithme.maps.pro" />
+26-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-59
+26-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:18:18-56
+27        <package android:name="net.osmand" />
+27-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-46
+27-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:19:18-43
+28        <package android:name="net.osmand.plus" />
+28-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-51
+28-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:20:18-48
+29        <package android:name="ru.dublgis.dgismobile" />
+29-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-57
+29-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:21:18-54
+30        <package android:name="com.tencent.map" />
+30-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-51
+30-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:22:18-48
+31        <package android:name="com.here.app.maps" />
+31-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-53
+31-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:23:18-50
+32        <package android:name="com.huawei.maps.app" />
+32-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-55
+32-->[:map_launcher] C:\Users\pc\Desktop\flutter\map_launcher_app\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:24:18-52
+33    </queries>
+34
+35    <application
+36        android:name="android.app.Application"
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.6.0] C:\Users\pc\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+40        android:label="map_launcher_app" >
+41        <activity
+42            android:name="com.example.map_launcher_app.MainActivity"
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44            android:exported="true"
+45            android:hardwareAccelerated="true"
+46            android:launchMode="singleTop"
+47            android:theme="@style/LaunchTheme"
+48            android:windowSoftInputMode="adjustResize" >
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+57                android:name="io.flutter.embedding.android.NormalTheme"
+58                android:resource="@style/NormalTheme" />
+59
+60            <intent-filter>
+61                <action android:name="android.intent.action.MAIN" />
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+71            android:name="flutterEmbedding"
+72            android:value="2" />
+73
+74        <uses-library
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+77        <uses-library
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+80    </application>
+81
+82</manifest>

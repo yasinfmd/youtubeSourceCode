@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:1:1-22:12
+	package
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:2:3-40
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:1:11-69
+queries
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:4:5-20:15
+package#com.google.android.apps.maps
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:5:9-64
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:5:18-61
+package#com.google.android.apps.mapslite
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:6:9-68
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:6:18-65
+package#com.autonavi.minimap
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:7:9-56
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:7:18-53
+package#com.baidu.BaiduMap
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:8:9-54
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:8:18-51
+package#com.waze
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:9:18-41
+package#ru.yandex.yandexnavi
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:10:9-56
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:10:18-53
+package#ru.yandex.yandexmaps
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:11:9-56
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:11:18-53
+package#com.citymapper.app.release
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:12:9-62
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:12:18-59
+package#com.mapswithme.maps.pro
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:13:9-59
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:13:18-56
+package#net.osmand
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:14:9-46
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:14:18-43
+package#net.osmand.plus
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:15:9-51
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:15:18-48
+package#ru.dublgis.dgismobile
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:16:9-57
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:16:18-54
+package#com.tencent.map
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:17:9-51
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:17:18-48
+package#com.here.app.maps
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:18:9-53
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:18:18-50
+package#com.huawei.maps.app
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:19:9-55
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml:19:18-52
+uses-sdk
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\AndroidManifest.xml
