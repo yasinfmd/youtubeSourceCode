@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="mybtn">Kopyalanan veriyi yapıştır</button>
+    <script>
+        document.getElementById('mybtn').addEventListener('click',async()=>{
+            try {
+                let result=await navigator.clipboard.readText()
+                console.log(result)
+                if(result != '' && (result.startsWith('data:image') || result.startsWith('https://images') )){
+                    let img=document.createElement('img')
+                    img.src=result
+                    document.body.appendChild(img)
+                }
+                if(result!= '' && result.startsWith('https://www.youtube.com/')) {
+                    let iframe=document.createElement('iframe')
+                    iframe.width=500
+                    iframe.height=500
+                    iframe.src='https://www.youtube.com/embed/1WEAJ-DFkHE'
+                    document.body.appendChild(iframe)
+                }
+            } catch (error) {
+                console.log('error',error)
+            }
+        })
+    </script>
+</body>
+</html>
