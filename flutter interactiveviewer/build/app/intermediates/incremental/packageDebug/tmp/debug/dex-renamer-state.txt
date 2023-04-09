@@ -1,0 +1,4 @@
+#Sun Apr 09 14:33:08 TRT 2023
+base.0=C\:\\Users\\pc\\Desktop\\flutter\\pinch_to_zoom\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
