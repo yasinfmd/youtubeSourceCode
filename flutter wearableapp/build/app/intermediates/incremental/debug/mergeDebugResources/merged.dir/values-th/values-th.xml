@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="time_difference_short_days"><item quantity="one">%d ว</item>
+<item quantity="other">%d ว</item>
+</plurals>
+    <plurals name="time_difference_short_hours"><item quantity="one">%d ชม.</item>
+<item quantity="other">%d ชม.</item>
+</plurals>
+    <plurals name="time_difference_short_minutes"><item quantity="one">%d น</item>
+<item quantity="other">%d น</item>
+</plurals>
+    <plurals name="time_difference_words_days"><item quantity="one">%d ว</item>
+<item quantity="other">%d ว</item>
+</plurals>
+    <plurals name="time_difference_words_hours"><item quantity="one">%d ชั่วโมง</item>
+<item quantity="other">%d ชั่วโมง</item>
+</plurals>
+    <plurals name="time_difference_words_minutes"><item quantity="one">%d นาที</item>
+<item quantity="other">%d นาที</item>
+</plurals>
+    <string name="a11y_no_data">ไม่มีข้อมูล</string>
+    <string name="a11y_no_permission">ไม่มีสิทธิ์เข้าถึงข้อมูล</string>
+    <string name="a11y_template_range">%1$f จาก %2$f</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ปิด"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"เปิด"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="buttons_rect_bottom_center">ล่าง</string>
+    <string name="buttons_rect_bottom_left">ล่างซ้าย</string>
+    <string name="buttons_rect_bottom_right">ล่างขวา</string>
+    <string name="buttons_rect_left_bottom">ล่าง ฝั่งซ้าย</string>
+    <string name="buttons_rect_left_center">กลางซ้าย</string>
+    <string name="buttons_rect_left_top">บน ฝั่งซ้าย</string>
+    <string name="buttons_rect_right_bottom">ล่าง ฝั่งขวา</string>
+    <string name="buttons_rect_right_center">กลางขวา</string>
+    <string name="buttons_rect_right_top">บน ฝั่งขวา</string>
+    <string name="buttons_rect_top_center">บน</string>
+    <string name="buttons_rect_top_left">บนซ้าย</string>
+    <string name="buttons_rect_top_right">บนขวา</string>
+    <string name="buttons_round_bottom_center">ล่าง</string>
+    <string name="buttons_round_bottom_left">ล่างซ้าย</string>
+    <string name="buttons_round_bottom_left_lower">ล่างซ้าย ส่วนล่าง</string>
+    <string name="buttons_round_bottom_left_upper">ล่างซ้าย ส่วนบน</string>
+    <string name="buttons_round_bottom_right">ล่างขวา</string>
+    <string name="buttons_round_bottom_right_lower">ล่างขวา ส่วนล่าง</string>
+    <string name="buttons_round_bottom_right_upper">ล่างขวา ส่วนบน</string>
+    <string name="buttons_round_center_left">กลางซ้าย</string>
+    <string name="buttons_round_center_right">กลางขวา</string>
+    <string name="buttons_round_top_center">บน</string>
+    <string name="buttons_round_top_left">บนซ้าย</string>
+    <string name="buttons_round_top_left_lower">บนซ้าย ส่วนล่าง</string>
+    <string name="buttons_round_top_left_upper">บนซ้าย ส่วนบน</string>
+    <string name="buttons_round_top_right">บนขวา</string>
+    <string name="buttons_round_top_right_lower">บนขวา ส่วนล่าง</string>
+    <string name="buttons_round_top_right_upper">บนขวา ส่วนบน</string>
+    <string msgid="6412144553299494336" name="confirmation_overlay_a11y_description_fail">"ไม่สำเร็จ"</string>
+    <string msgid="8809042819843332546" name="confirmation_overlay_a11y_description_phone">"เปิดในโทรศัพท์ของคุณแล้ว"</string>
+    <string msgid="2936753235333429892" name="confirmation_overlay_a11y_description_success">"สำเร็จ"</string>
+    <string msgid="4327971892987955014" name="confirmation_overlay_a11y_type_image">"รูปภาพ"</string>
+    <string msgid="3209159573327985035" name="copy">"คัดลอก"</string>
+    <string name="dismiss_overlay_button_label">ปิด</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"ขั้นสูง"</string>
+    <string name="generic_cancel">ยกเลิก</string>
+    <string name="generic_yes">ใช่</string>
+    <string name="navigation_drawer_content_description">ลิ้นชักการนำทาง</string>
+    <string msgid="478774118347071097" name="not_set">"ไม่ได้ตั้งค่า"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"คัดลอก \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ไปยังคลิปบอร์ดแล้ว"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"ค้นหา"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g> <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="time_difference_now">ตอนนี้เลย</string>
+    <string name="time_difference_short_days_and_hours">%1$s %2$s﻿</string>
+    <string name="time_difference_short_hours_and_minutes">%1$s %2$s﻿</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ปิด"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"เปิด"</string>
+    <string msgid="8863821639144537553" name="ws_action_drawer_content_description">"ลิ้นชักการดำเนินการ"</string>
+    <string msgid="777117228299084604" name="ws_navigation_drawer_content_description">"ลิ้นชักการนำทาง"</string>
+</resources>

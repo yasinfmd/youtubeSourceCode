@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mjohnsullivan.flutterwear.wear" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <!-- Flags the app as a Wear app -->
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <!-- Required for ambient mode support -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Makes this app work standalone without a mobile companion app -->
+    <application>
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+    </application>
+
+</manifest>

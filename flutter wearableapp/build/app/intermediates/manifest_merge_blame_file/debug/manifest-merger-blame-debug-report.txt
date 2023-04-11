@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pinch_to_zoom"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\pc\Desktop\flutter\pinch_to_zoom\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\pc\Desktop\flutter\pinch_to_zoom\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <!-- Flags the app as a Wear app -->
+17    <uses-feature android:name="android.hardware.type.watch" /> <!-- Required for ambient mode support -->
+17-->[:wear] C:\Users\pc\Desktop\flutter\pinch_to_zoom\build\wear\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-64
+17-->[:wear] C:\Users\pc\Desktop\flutter\pinch_to_zoom\build\wear\intermediates\merged_manifest\debug\AndroidManifest.xml:10:19-61
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:wear] C:\Users\pc\Desktop\flutter\pinch_to_zoom\build\wear\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-68
+18-->[:wear] C:\Users\pc\Desktop\flutter\pinch_to_zoom\build\wear\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-65
+19
+20    <application
+21        android:name="android.app.Application"
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] C:\Users\pc\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+26        android:label="pinch_to_zoom" >
+27        <activity
+28            android:name="com.example.pinch_to_zoom.MainActivity"
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30            android:exported="true"
+31            android:hardwareAccelerated="true"
+32            android:launchMode="singleTop"
+33            android:theme="@style/LaunchTheme"
+34            android:windowSoftInputMode="adjustResize" >
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+43                android:name="io.flutter.embedding.android.NormalTheme"
+44                android:resource="@style/NormalTheme" />
+45
+46            <intent-filter>
+47                <action android:name="android.intent.action.MAIN" />
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+57            android:name="flutterEmbedding"
+58            android:value="2" />
+59        <meta-data
+59-->[:wear] C:\Users\pc\Desktop\flutter\pinch_to_zoom\build\wear\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:36
+60            android:name="com.google.android.wearable.standalone"
+60-->[:wear] C:\Users\pc\Desktop\flutter\pinch_to_zoom\build\wear\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-66
+61            android:value="true" />
+61-->[:wear] C:\Users\pc\Desktop\flutter\pinch_to_zoom\build\wear\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-33
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+69        <uses-library
+69-->[androidx.wear:wear:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\5819b1e0c3e097f8512c11efe9bdfe54\transformed\wear-1.2.0\AndroidManifest.xml:25:9-27:40
+70            android:name="com.google.android.wearable"
+70-->[androidx.wear:wear:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\5819b1e0c3e097f8512c11efe9bdfe54\transformed\wear-1.2.0\AndroidManifest.xml:26:13-55
+71            android:required="false" />
+71-->[androidx.wear:wear:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\5819b1e0c3e097f8512c11efe9bdfe54\transformed\wear-1.2.0\AndroidManifest.xml:27:13-37
+72    </application>
+73
+74</manifest>

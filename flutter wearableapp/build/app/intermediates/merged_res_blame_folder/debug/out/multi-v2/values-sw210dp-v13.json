@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.pinch_to_zoom.app-mergeDebugResources-18:/values-sw210dp-v13/values-sw210dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\5819b1e0c3e097f8512c11efe9bdfe54\\transformed\\wear-1.2.0\\res\\values-sw210dp-v13\\values-sw210dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,198,265",
+                        "endColumns": "70,71,66,54",
+                        "endOffsets": "121,193,260,315"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "239,310,382,449",
+                        "endColumns": "70,71,66,54",
+                        "endOffsets": "305,377,444,499"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\06599dfac0f4ac55b2af45f6cc60d1ee\\transformed\\jetified-wearable-2.8.1\\res\\values-sw210dp-v13\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "215,279,339",
+                        "endColumns": "63,59,47",
+                        "endOffsets": "278,338,386"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,123,187",
+                        "endColumns": "67,63,51",
+                        "endOffsets": "118,182,234"
+                    }
+                }
+            ]
+        }
+    ]
+}

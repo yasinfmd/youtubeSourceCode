@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.pinch_to_zoom.app-mergeDebugResources-18:/values-round-v23/values-round-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\5819b1e0c3e097f8512c11efe9bdfe54\\transformed\\wear-1.2.0\\res\\values-round-v23\\values-round-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,118,204",
+                        "endColumns": "62,85,79",
+                        "endOffsets": "113,199,279"
+                    },
+                    "to": {
+                        "startLines": "4,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "176,680,766",
+                        "endColumns": "62,85,79",
+                        "endOffsets": "234,761,841"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\06599dfac0f4ac55b2af45f6cc60d1ee\\transformed\\jetified-wearable-2.8.1\\res\\values-round-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,5,9,10,11,12,13,14",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "213,269,531,608,689,733,804,877",
+                        "endColumns": "55,56,76,80,43,70,72,70",
+                        "endOffsets": "268,325,607,688,732,803,876,947"
+                    },
+                    "to": {
+                        "startLines": "2,3,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,239,320,405,453,528,605",
+                        "endColumns": "59,60,80,84,47,74,76,74",
+                        "endOffsets": "110,171,315,400,448,523,600,675"
+                    }
+                }
+            ]
+        }
+    ]
+}

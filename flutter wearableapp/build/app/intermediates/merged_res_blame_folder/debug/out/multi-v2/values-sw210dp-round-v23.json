@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.pinch_to_zoom.app-mergeDebugResources-18:/values-sw210dp-round-v23/values-sw210dp-round-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\06599dfac0f4ac55b2af45f6cc60d1ee\\transformed\\jetified-wearable-2.8.1\\res\\values-sw210dp-round-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,11",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "221,282,340,404,460,516,633",
+                        "endColumns": "60,57,63,55,55,57,43",
+                        "endOffsets": "281,339,403,459,515,573,676"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,120,182,250,310,370,495",
+                        "endColumns": "64,61,67,59,59,61,47",
+                        "endOffsets": "115,177,245,305,365,427,538"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\5819b1e0c3e097f8512c11efe9bdfe54\\transformed\\wear-1.2.0\\res\\values-sw210dp-round-v23\\values-sw210dp-round-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,118,186,251,322,385,448,513,599",
+                        "endColumns": "62,67,64,70,62,62,64,85,80",
+                        "endOffsets": "113,181,246,317,380,443,508,594,675"
+                    },
+                    "to": {
+                        "startLines": "8,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "432,543,611,676,747,810,873,938,1024",
+                        "endColumns": "62,67,64,70,62,62,64,85,80",
+                        "endOffsets": "490,606,671,742,805,868,933,1019,1100"
+                    }
+                }
+            ]
+        }
+    ]
+}

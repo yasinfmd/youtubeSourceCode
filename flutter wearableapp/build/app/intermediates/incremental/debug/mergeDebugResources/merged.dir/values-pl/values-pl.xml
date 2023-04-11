@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="time_difference_short_days"><item quantity="one">%d d</item>
+<item quantity="few">%d d</item>
+<item quantity="many">%d d</item>
+<item quantity="other">%d d</item>
+</plurals>
+    <plurals name="time_difference_short_hours"><item quantity="one">%d g</item>
+<item quantity="few">%d g</item>
+<item quantity="many">%d g</item>
+<item quantity="other">%d g</item>
+</plurals>
+    <plurals name="time_difference_short_minutes"><item quantity="one">%d m</item>
+<item quantity="few">%d m</item>
+<item quantity="many">%d m</item>
+<item quantity="other">%d m</item>
+</plurals>
+    <plurals name="time_difference_words_days"><item quantity="one">%d dzień</item>
+<item quantity="few">%d dni</item>
+<item quantity="many">%d dni</item>
+<item quantity="other">%d dnia</item>
+</plurals>
+    <plurals name="time_difference_words_hours"><item quantity="one">%d godz.</item>
+<item quantity="few">%d godz.</item>
+<item quantity="many">%d godz.</item>
+<item quantity="other">%d godz.</item>
+</plurals>
+    <plurals name="time_difference_words_minutes"><item quantity="one">%d min</item>
+<item quantity="few">%d min</item>
+<item quantity="many">%d min</item>
+<item quantity="other">%d min</item>
+</plurals>
+    <string name="a11y_no_data">Brak danych</string>
+    <string name="a11y_no_permission">Brak dostępu do danych</string>
+    <string name="a11y_template_range">%1$f z %2$f</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Przejdź na stronę główną"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Przejdź wyżej"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Więcej opcji"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Gotowe"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Pokaż wszystko"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Wybierz aplikację"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"WYŁ."</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"WŁ."</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funkcyjny+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"spacja"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Szukaj…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Wyczyść zapytanie"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Zapytanie"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Szukaj"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Wyślij zapytanie"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Wyszukiwanie głosowe"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Udostępnij przez:"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Udostępnij przez: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Zwiń"</string>
+    <string name="buttons_rect_bottom_center">Na dole</string>
+    <string name="buttons_rect_bottom_left">W lewym dolnym rogu</string>
+    <string name="buttons_rect_bottom_right">W prawym dolnym rogu</string>
+    <string name="buttons_rect_left_bottom">Na dole po lewej</string>
+    <string name="buttons_rect_left_center">Na środku po lewej</string>
+    <string name="buttons_rect_left_top">Na górze po lewej</string>
+    <string name="buttons_rect_right_bottom">Na dole po prawej</string>
+    <string name="buttons_rect_right_center">Na środku po prawej</string>
+    <string name="buttons_rect_right_top">Na górze po prawej</string>
+    <string name="buttons_rect_top_center">Na górze</string>
+    <string name="buttons_rect_top_left">W lewym górnym rogu</string>
+    <string name="buttons_rect_top_right">W prawym górnym rogu</string>
+    <string name="buttons_round_bottom_center">Na dole</string>
+    <string name="buttons_round_bottom_left">Na dole po lewej</string>
+    <string name="buttons_round_bottom_left_lower">Na dole po lewej, niżej</string>
+    <string name="buttons_round_bottom_left_upper">Na dole po lewej, wyżej</string>
+    <string name="buttons_round_bottom_right">Na dole po prawej</string>
+    <string name="buttons_round_bottom_right_lower">Na dole po prawej, niżej</string>
+    <string name="buttons_round_bottom_right_upper">Na dole po prawej, wyżej</string>
+    <string name="buttons_round_center_left">Na środku po lewej</string>
+    <string name="buttons_round_center_right">Na środku po prawej</string>
+    <string name="buttons_round_top_center">Na górze</string>
+    <string name="buttons_round_top_left">Na górze po lewej</string>
+    <string name="buttons_round_top_left_lower">Na górze po lewej, niżej</string>
+    <string name="buttons_round_top_left_upper">Na górze po lewej, wyżej</string>
+    <string name="buttons_round_top_right">Na górze po prawej</string>
+    <string name="buttons_round_top_right_lower">Na górze po prawej, niżej</string>
+    <string name="buttons_round_top_right_upper">Na górze po prawej, wyżej</string>
+    <string msgid="6412144553299494336" name="confirmation_overlay_a11y_description_fail">"Błąd"</string>
+    <string msgid="8809042819843332546" name="confirmation_overlay_a11y_description_phone">"Otwarto na telefonie"</string>
+    <string msgid="2936753235333429892" name="confirmation_overlay_a11y_description_success">"Udało się"</string>
+    <string msgid="4327971892987955014" name="confirmation_overlay_a11y_type_image">"Obraz"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopiuj"</string>
+    <string name="dismiss_overlay_button_label">Zakończ</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Zaawansowane"</string>
+    <string name="generic_cancel">Anuluj</string>
+    <string name="generic_yes">Tak</string>
+    <string name="navigation_drawer_content_description">Panel nawigacji</string>
+    <string msgid="478774118347071097" name="not_set">"Nie ustawiono"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Skopiowano „<ns1:g id="SUMMARY">%1$s</ns1:g>” do schowka."</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Szukaj"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="time_difference_now">Teraz</string>
+    <string name="time_difference_short_days_and_hours">%1$s %2$s﻿</string>
+    <string name="time_difference_short_hours_and_minutes">%1$s %2$s﻿</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"WYŁ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"WŁ."</string>
+    <string msgid="8863821639144537553" name="ws_action_drawer_content_description">"Panel działań"</string>
+    <string msgid="777117228299084604" name="ws_navigation_drawer_content_description">"Panel nawigacji"</string>
+</resources>

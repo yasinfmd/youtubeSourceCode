@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mjohnsullivan.flutterwear.wear" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="23" />
+7-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml
+8
+9    <!-- Flags the app as a Wear app -->
+10    <uses-feature android:name="android.hardware.type.watch" />
+10-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:14:2-61
+10-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:14:16-58
+11
+12    <!-- Required for ambient mode support -->
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:17:2-65
+13-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:17:19-62
+14
+15    <!-- Makes this app work standalone without a mobile companion app -->
+16    <application>
+16-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:6:2-11:16
+17        <meta-data
+17-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:7:3-10:6
+18            android:name="com.google.android.wearable.standalone"
+18-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:8:4-57
+19            android:value="true" />
+19-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\wear-1.1.0\android\src\main\AndroidManifest.xml:9:4-24
+20    </application>
+21
+22</manifest>
