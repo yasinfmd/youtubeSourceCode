@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:1:1-23:12
+	package
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:2:3-44
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:3:5-22:19
+provider#dev.fluttercommunity.plus.share.ShareFileProvider
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:6:7-14:18
+	android:grantUriPermissions
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:10:9-43
+	android:authorities
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:8:9-70
+	android:exported
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:9:9-33
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:7:9-73
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:11:9-13:61
+	android:resource
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:13:11-59
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:12:11-61
+receiver#dev.fluttercommunity.plus.share.SharePlusPendingIntent
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:17:7-21:18
+	android:exported
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:17:56-80
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:17:17-55
+intent-filter#action:name:EXTRA_CHOSEN_COMPONENT
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:18:9-20:25
+action#EXTRA_CHOSEN_COMPONENT
+ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:19:11-59
+	android:name
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml:19:19-56
+uses-sdk
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-6.3.2\android\src\main\AndroidManifest.xml

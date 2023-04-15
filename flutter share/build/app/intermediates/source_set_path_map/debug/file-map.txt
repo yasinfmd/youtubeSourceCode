@@ -1,0 +1,16 @@
+com.example.socialshare.app-jetified-window-java-1.0.0-beta04-0 C:\Users\pc\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.socialshare.app-jetified-core-ktx-1.9.0-1 C:\Users\pc\.gradle\caches\transforms-3\3e6c979ab8eca9aa1eeca6cb7cd9f261\transformed\jetified-core-ktx-1.9.0\res
+com.example.socialshare.app-core-1.9.0-2 C:\Users\pc\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\res
+com.example.socialshare.app-lifecycle-runtime-2.3.1-3 C:\Users\pc\.gradle\caches\transforms-3\76da31ad033c53187dd7271282d0f7d2\transformed\lifecycle-runtime-2.3.1\res
+com.example.socialshare.app-jetified-window-1.0.0-beta04-4 C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.example.socialshare.app-jetified-annotation-experimental-1.3.0-5 C:\Users\pc\.gradle\caches\transforms-3\ec10578641139d45a328c567f48881a1\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.socialshare.app-debug-6 C:\Users\pc\Desktop\flutter\socialshare\android\app\src\debug\res
+com.example.socialshare.app-main-7 C:\Users\pc\Desktop\flutter\socialshare\android\app\src\main\res
+com.example.socialshare.app-pngs-8 C:\Users\pc\Desktop\flutter\socialshare\build\app\generated\res\pngs\debug
+com.example.socialshare.app-resValues-9 C:\Users\pc\Desktop\flutter\socialshare\build\app\generated\res\resValues\debug
+com.example.socialshare.app-rs-10 C:\Users\pc\Desktop\flutter\socialshare\build\app\generated\res\rs\debug
+com.example.socialshare.app-mergeDebugResources-11 C:\Users\pc\Desktop\flutter\socialshare\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.socialshare.app-mergeDebugResources-12 C:\Users\pc\Desktop\flutter\socialshare\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.socialshare.app-merged_res-13 C:\Users\pc\Desktop\flutter\socialshare\build\app\intermediates\merged_res\debug
+com.example.socialshare.app-packaged_res-14 C:\Users\pc\Desktop\flutter\socialshare\build\path_provider_android\intermediates\packaged_res\debug
+com.example.socialshare.app-packaged_res-15 C:\Users\pc\Desktop\flutter\socialshare\build\share_plus\intermediates\packaged_res\debug

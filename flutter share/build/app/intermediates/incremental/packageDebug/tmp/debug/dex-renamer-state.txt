@@ -1,0 +1,4 @@
+#Sat Apr 15 17:06:10 TRT 2023
+base.0=C\:\\Users\\pc\\Desktop\\flutter\\socialshare\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
