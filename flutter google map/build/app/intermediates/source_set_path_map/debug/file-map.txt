@@ -1,0 +1,17 @@
+com.example.untitled.app-jetified-window-java-1.0.0-beta04-0 C:\Users\pc\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.untitled.app-jetified-play-services-base-18.0.1-1 C:\Users\pc\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\res
+com.example.untitled.app-core-1.6.0-2 C:\Users\pc\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.example.untitled.app-jetified-play-services-basement-18.0.0-3 C:\Users\pc\.gradle\caches\transforms-3\5ff4a353de7064fc161fb566343d6916\transformed\jetified-play-services-basement-18.0.0\res
+com.example.untitled.app-jetified-annotation-experimental-1.1.0-4 C:\Users\pc\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.untitled.app-jetified-play-services-maps-18.1.0-5 C:\Users\pc\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\res
+com.example.untitled.app-jetified-window-1.0.0-beta04-6 C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.example.untitled.app-debug-7 C:\Users\pc\Desktop\flutter\untitled\android\app\src\debug\res
+com.example.untitled.app-main-8 C:\Users\pc\Desktop\flutter\untitled\android\app\src\main\res
+com.example.untitled.app-pngs-9 C:\Users\pc\Desktop\flutter\untitled\build\app\generated\res\pngs\debug
+com.example.untitled.app-resValues-10 C:\Users\pc\Desktop\flutter\untitled\build\app\generated\res\resValues\debug
+com.example.untitled.app-rs-11 C:\Users\pc\Desktop\flutter\untitled\build\app\generated\res\rs\debug
+com.example.untitled.app-mergeDebugResources-12 C:\Users\pc\Desktop\flutter\untitled\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.untitled.app-mergeDebugResources-13 C:\Users\pc\Desktop\flutter\untitled\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.untitled.app-merged_res-14 C:\Users\pc\Desktop\flutter\untitled\build\app\intermediates\merged_res\debug
+com.example.untitled.app-packaged_res-15 C:\Users\pc\Desktop\flutter\untitled\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.untitled.app-packaged_res-16 C:\Users\pc\Desktop\flutter\untitled\build\google_maps_flutter_android\intermediates\packaged_res\debug
