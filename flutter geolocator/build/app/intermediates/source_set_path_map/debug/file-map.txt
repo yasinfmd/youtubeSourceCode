@@ -1,0 +1,17 @@
+com.example.geolocator.app-jetified-window-java-1.0.0-beta04-0 C:\Users\pc\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.geolocator.app-core-1.6.0-1 C:\Users\pc\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.example.geolocator.app-coordinatorlayout-1.0.0-2 C:\Users\pc\.gradle\caches\transforms-3\658c795313ef4882e96b91cbdc33f336\transformed\coordinatorlayout-1.0.0\res
+com.example.geolocator.app-jetified-play-services-base-16.0.1-3 C:\Users\pc\.gradle\caches\transforms-3\844ceeef8111626b14c1554fcfeb8f93\transformed\jetified-play-services-base-16.0.1\res
+com.example.geolocator.app-jetified-annotation-experimental-1.1.0-4 C:\Users\pc\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.geolocator.app-jetified-play-services-basement-16.0.1-5 C:\Users\pc\.gradle\caches\transforms-3\d76533eafacdc8818f3b886884bf1fab\transformed\jetified-play-services-basement-16.0.1\res
+com.example.geolocator.app-jetified-window-1.0.0-beta04-6 C:\Users\pc\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.example.geolocator.app-media-1.0.0-7 C:\Users\pc\.gradle\caches\transforms-3\f057e7418cf3ed9a7aa575bdc69ad668\transformed\media-1.0.0\res
+com.example.geolocator.app-debug-8 C:\Users\pc\Desktop\flutter\geolocator\android\app\src\debug\res
+com.example.geolocator.app-main-9 C:\Users\pc\Desktop\flutter\geolocator\android\app\src\main\res
+com.example.geolocator.app-pngs-10 C:\Users\pc\Desktop\flutter\geolocator\build\app\generated\res\pngs\debug
+com.example.geolocator.app-resValues-11 C:\Users\pc\Desktop\flutter\geolocator\build\app\generated\res\resValues\debug
+com.example.geolocator.app-rs-12 C:\Users\pc\Desktop\flutter\geolocator\build\app\generated\res\rs\debug
+com.example.geolocator.app-mergeDebugResources-13 C:\Users\pc\Desktop\flutter\geolocator\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.geolocator.app-mergeDebugResources-14 C:\Users\pc\Desktop\flutter\geolocator\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.geolocator.app-merged_res-15 C:\Users\pc\Desktop\flutter\geolocator\build\app\intermediates\merged_res\debug
+com.example.geolocator.app-packaged_res-16 C:\Users\pc\Desktop\flutter\geolocator\build\location\intermediates\packaged_res\debug

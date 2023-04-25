@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lyokone.location" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+9-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:3:5-81
+9-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:3:22-78
+10    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+10-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:4:5-79
+10-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:4:22-76
+11
+12    <application>
+12-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:6:5-12:19
+13        <service
+13-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:7:9-11:53
+14            android:name="com.lyokone.location.FlutterLocationService"
+14-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:11:13-51
+15            android:enabled="true"
+15-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:8:13-35
+16            android:exported="false"
+16-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:9:13-37
+17            android:foregroundServiceType="location" />
+17-->C:\Users\pc\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\AndroidManifest.xml:10:13-53
+18    </application>
+19
+20</manifest>
