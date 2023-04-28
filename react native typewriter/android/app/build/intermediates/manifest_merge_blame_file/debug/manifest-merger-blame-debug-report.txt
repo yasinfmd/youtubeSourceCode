@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomeproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\pc\.gradle\caches\transforms-3\fafd183758d3345458ca134509e8f09e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\pc\.gradle\caches\transforms-3\fafd183758d3345458ca134509e8f09e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:5:5-24:19
+16        android:name="com.awesomeproject.MainApplication"
+16-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:6:7-38
+17        android:allowBackup="false"
+17-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:10:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\pc\.gradle\caches\transforms-3\4d75081b3a46de54df7f9175cb62a673\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:8:7-41
+21        android:label="@string/app_name"
+21-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:7:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:9:7-52
+23        android:theme="@style/AppTheme"
+23-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:11:7-38
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\debug\AndroidManifest.xml:8:9-44
+25        <activity
+25-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\debug\AndroidManifest.xml:11:9-111
+26            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+26-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\debug\AndroidManifest.xml:11:19-83
+27            android:exported="false" />
+27-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\debug\AndroidManifest.xml:11:84-108
+28        <activity
+28-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:12:7-23:18
+29            android:name="com.awesomeproject.MainActivity"
+29-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:13:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+30-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:15:9-118
+31            android:exported="true"
+31-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:18:9-32
+32            android:label="@string/app_name"
+32-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:14:9-41
+33            android:launchMode="singleTask"
+33-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:16:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:17:9-51
+35            <intent-filter>
+35-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:19:9-22:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:20:13-65
+36-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:20:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:21:13-73
+38-->C:\Users\pc\Desktop\AwesomeProject\android\app\src\main\AndroidManifest.xml:21:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\afe90b3e28a9f868df6da608b58dbf88\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\afe90b3e28a9f868df6da608b58dbf88\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+44            android:authorities="com.awesomeproject.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\afe90b3e28a9f868df6da608b58dbf88\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\afe90b3e28a9f868df6da608b58dbf88\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\afe90b3e28a9f868df6da608b58dbf88\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\afe90b3e28a9f868df6da608b58dbf88\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\afe90b3e28a9f868df6da608b58dbf88\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\pc\.gradle\caches\transforms-3\a5dc8019ed925c8b110cd396be525241\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\pc\.gradle\caches\transforms-3\a5dc8019ed925c8b110cd396be525241\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\pc\.gradle\caches\transforms-3\a5dc8019ed925c8b110cd396be525241\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>
