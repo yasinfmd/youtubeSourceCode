@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" id="my_css" />
+</head>
+<body>
+    <div>Merhaba Dünya</div>
+    <script>
+        const my_css=document.getElementById('my_css')
+        console.log(my_css)
+        if(window.matchMedia("(min-width:768px)").matches){
+            my_css.setAttribute('href','large.css')
+        }else{
+            my_css.setAttribute('href','small.css')
+        }
+
+        window.matchMedia("(min-width:768px)").addEventListener('change',(e)=>{
+            console.log(e)
+            if(e.matches){
+            my_css.setAttribute('href','large.css')
+            }else{
+            my_css.setAttribute('href','small.css')
+            }
+
+        })
+
+
+    </script>
+</body>
+</html>
