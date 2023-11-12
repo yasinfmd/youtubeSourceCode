@@ -1,0 +1,56 @@
+.weekday {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.day.inactive {
+  background-color: #ddd;
+}
+
+.day:hover {
+  background-color: #f5f5f5;
+}
+
+.day div {
+  display: flex;
+  flex-direction: column;
+}
+
+.day span {
+  margin-bottom: 5px;
+}
+
+.weekday {
+  grid-row: 1;
+}
+#calendar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.month {
+  margin: 20px;
+  flex-basis: calc(
+    33.33% - 40px
+  ); 
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
