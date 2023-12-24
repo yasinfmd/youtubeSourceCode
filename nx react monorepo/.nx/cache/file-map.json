@@ -1,0 +1,490 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.7",
+  "deps": {
+    "@swc/helpers": "~0.5.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.21.1",
+    "tslib": "^2.3.0",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@nx/eslint": "17.2.7",
+    "@nx/eslint-plugin": "17.2.7",
+    "@nx/js": "17.2.7",
+    "@nx/react": "17.2.7",
+    "@nx/vite": "17.2.7",
+    "@nx/workspace": "17.2.7",
+    "@swc-node/register": "~1.6.7",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@testing-library/react": "14.0.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/coverage-v8": "~0.34.6",
+    "@vitest/ui": "~0.34.6",
+    "eslint": "~8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jsdom": "~22.1.0",
+    "nx": "17.2.7",
+    "prettier": "^2.6.2",
+    "typescript": "~5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "~2.3.0",
+    "vitest": "~0.34.6"
+  },
+  "pathMappings": {
+    "@mymonorepoapp/common": [
+      "common/src/index.ts"
+    ],
+    "@mymonorepoapp/my-new-app": [
+      "my-new-app/src/app/app.tsx"
+    ],
+    "@mymonorepoapp/products": [
+      "modules/products/src/index.ts"
+    ],
+    "@mymonorepoapp/ui": [
+      "modules/shared/ui/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "mymonorepoapp": [
+        {
+          "file": ".eslintignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": ".eslintrc.base.json",
+          "hash": "17866138117546000433"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "16622158786225387511"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "16877376182141465221"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "16448050467312557263"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "16884713733442577066"
+        },
+        {
+          "file": "README.md",
+          "hash": "6670251436703455835"
+        },
+        {
+          "file": "index.html",
+          "hash": "6457133877699220918"
+        },
+        {
+          "file": "nx.json",
+          "hash": "4309757129875048018"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "11601714844208950873"
+        },
+        {
+          "file": "package.json",
+          "hash": "13354453436205493743",
+          "deps": [
+            "npm:@swc/helpers",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom",
+            "npm:tslib",
+            "npm:@babel/core",
+            "npm:@babel/preset-react",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/js",
+            "npm:@nx/react",
+            "npm:@nx/vite",
+            "npm:@nx/workspace",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@testing-library/react",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vitejs/plugin-react",
+            "npm:@vitest/coverage-v8",
+            "npm:@vitest/ui",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:jsdom",
+            "npm:nx",
+            "npm:prettier",
+            "npm:typescript",
+            "npm:vite",
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "239866139557749112"
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "src/app/app.spec.tsx",
+          "hash": "13176324683145900797",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "src/app/app.tsx",
+          "hash": "11793943521903174271",
+          "deps": [
+            "products",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "src/app/hello-world/hello-world.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "src/app/hello-world/hello-world.spec.tsx",
+          "hash": "5618366144501743513",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "src/app/hello-world/hello-world.tsx",
+          "hash": "16238555781137152113",
+          "deps": [
+            "my-new-app"
+          ]
+        },
+        {
+          "file": "src/app/helloComp.tsx",
+          "hash": "8822919147508087825"
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/main.tsx",
+          "hash": "9148922490014060645",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "17525272060780948891"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "15241990977645933469"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "10054598648200555602"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "12203409757962645647"
+        },
+        {
+          "file": "vite.config.ts",
+          "hash": "7282972100392040898",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "file": "modules/products/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "modules/products/.eslintrc.json",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "modules/products/README.md",
+          "hash": "10584224410186656541"
+        },
+        {
+          "file": "modules/products/project.json",
+          "hash": "529707219332540156"
+        },
+        {
+          "file": "modules/products/src/index.ts",
+          "hash": "7024162961491501222"
+        },
+        {
+          "file": "modules/products/src/lib/products.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "modules/products/src/lib/products.spec.tsx",
+          "hash": "16818468273304273545",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "modules/products/src/lib/products.tsx",
+          "hash": "9112495802156037359",
+          "deps": [
+            "ui"
+          ]
+        },
+        {
+          "file": "modules/products/tsconfig.json",
+          "hash": "12937361759397702261"
+        },
+        {
+          "file": "modules/products/tsconfig.lib.json",
+          "hash": "10729871428936955739"
+        },
+        {
+          "file": "modules/products/tsconfig.spec.json",
+          "hash": "15943385144407153049"
+        },
+        {
+          "file": "modules/products/vite.config.ts",
+          "hash": "18199199440036372768",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "file": "modules/shared/ui/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "modules/shared/ui/.eslintrc.json",
+          "hash": "18132053918848999080"
+        },
+        {
+          "file": "modules/shared/ui/README.md",
+          "hash": "12971312433074001572"
+        },
+        {
+          "file": "modules/shared/ui/project.json",
+          "hash": "3383209160667534740"
+        },
+        {
+          "file": "modules/shared/ui/src/index.ts",
+          "hash": "5977848407072712979"
+        },
+        {
+          "file": "modules/shared/ui/src/lib/ui.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "modules/shared/ui/src/lib/ui.spec.tsx",
+          "hash": "7298740781061202243",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "modules/shared/ui/src/lib/ui.tsx",
+          "hash": "12179807727041286496"
+        },
+        {
+          "file": "modules/shared/ui/tsconfig.json",
+          "hash": "11301463162576132912"
+        },
+        {
+          "file": "modules/shared/ui/tsconfig.lib.json",
+          "hash": "15322717985845125222"
+        },
+        {
+          "file": "modules/shared/ui/tsconfig.spec.json",
+          "hash": "6227144360273957678"
+        },
+        {
+          "file": "modules/shared/ui/vite.config.ts",
+          "hash": "16838373956149382979",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "common": [
+        {
+          "file": "common/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "common/.eslintrc.json",
+          "hash": "1475412396953105932"
+        },
+        {
+          "file": "common/README.md",
+          "hash": "14304189070277476676"
+        },
+        {
+          "file": "common/package.json",
+          "hash": "9695736945293573779"
+        },
+        {
+          "file": "common/project.json",
+          "hash": "17581558111616777371"
+        },
+        {
+          "file": "common/src/index.ts",
+          "hash": "9224414743604572897"
+        },
+        {
+          "file": "common/src/lib/common.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "common/src/lib/common.tsx",
+          "hash": "14449402250095358540"
+        },
+        {
+          "file": "common/tsconfig.json",
+          "hash": "10003726099175752513"
+        },
+        {
+          "file": "common/tsconfig.lib.json",
+          "hash": "1372575057696038725"
+        },
+        {
+          "file": "common/vite.config.ts",
+          "hash": "14315062784069818404",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:path",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "my-new-app": [
+        {
+          "file": "my-new-app/.eslintrc.json",
+          "hash": "1475412396953105932"
+        },
+        {
+          "file": "my-new-app/index.html",
+          "hash": "2359620620734553514"
+        },
+        {
+          "file": "my-new-app/project.json",
+          "hash": "14370048450076558567"
+        },
+        {
+          "file": "my-new-app/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "my-new-app/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "my-new-app/src/app/app.spec.tsx",
+          "hash": "11975967968159779064",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "my-new-app/src/app/app.tsx",
+          "hash": "3780211160161871468"
+        },
+        {
+          "file": "my-new-app/src/app/nx-welcome.tsx",
+          "hash": "13758118578713308242"
+        },
+        {
+          "file": "my-new-app/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "my-new-app/src/main.tsx",
+          "hash": "4731961929376199421",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "my-new-app/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "my-new-app/tsconfig.app.json",
+          "hash": "17534131638295275382"
+        },
+        {
+          "file": "my-new-app/tsconfig.json",
+          "hash": "8372035408268418786"
+        },
+        {
+          "file": "my-new-app/tsconfig.spec.json",
+          "hash": "13800019362629030472"
+        },
+        {
+          "file": "my-new-app/vite.config.ts",
+          "hash": "9665691738059351142",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ]
+    }
+  }
+}

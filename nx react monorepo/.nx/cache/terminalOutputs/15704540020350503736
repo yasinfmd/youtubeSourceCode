@@ -1,0 +1,16 @@
+
+[7m[1m[34m DEV [39m[22m[27m [34mv0.34.6[39m [90mC:/Users/pc/Desktop/mymonorepoapp[39m
+
+ [32m✓[39m src/app/app.spec.tsx [2m ([22m[2m2 tests[22m[2m)[22m[90m 23[2mms[22m[39m
+[90mstderr[2m | src/app/app.spec.tsx[2m > [22m[2mApp[2m > [22m[2mshould have a greeting as the title[22m[39m
+To match all elements we had to reset the lastIndex of the RegExp because the global flag is enabled. We encourage to remove the global flag from the RegExp.
+
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m   Start at [22m 19:55:46
+[2m   Duration [22m 1.00s[2m (transform 43ms, setup 0ms, collect 215ms, tests 23ms, environment 387ms, prepare 129ms)[22m
+
+
+[1m[7m[32m PASS [39m[27m[22m[32m Waiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m

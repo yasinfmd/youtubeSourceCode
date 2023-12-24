@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx run-many -t test lint e2e",
+    "startTime": "2023-12-24T16:57:08.223Z",
+    "endTime": "2023-12-24T16:57:08.245Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "mymonorepoapp:lint",
+      "target": "lint",
+      "projectName": "mymonorepoapp",
+      "hash": "10947862270526893579",
+      "startTime": "2023-12-24T16:57:08.236Z",
+      "endTime": "2023-12-24T16:57:08.237Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "mymonorepoapp:test",
+      "target": "test",
+      "projectName": "mymonorepoapp",
+      "hash": "15704540020350503736",
+      "startTime": "2023-12-24T16:57:08.233Z",
+      "endTime": "2023-12-24T16:57:08.238Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    }
+  ]
+}
