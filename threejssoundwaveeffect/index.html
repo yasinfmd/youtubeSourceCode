@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { margin: 0; overflow: hidden; #t{position: absolute;}}
+    </style>
+</head>
+<body>
+    <button id="t">Başlat</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    
+
+    <script>
+        let scene,camera,renderer,controls;
+        let sphere,plane;
+        let audioContext , analyser,dataArray;
+
+        function init(){
+            scene=new THREE.Scene();
+            camera=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight)
+            renderer=new THREE.WebGLRenderer()
+            renderer.setSize(window.innerWidth,window.innerHeight)
+            document.body.appendChild(renderer.domElement)
+            const ambientLight=new THREE.AmbientLight(0xffffff,0.5)
+            scene.add(ambientLight)
+
+
+            const pointLight=new THREE.PointLight(0xffffff,1)
+            pointLight.position.set(10,10,10)
+
+            scene.add(pointLight)
+            const textureLoader=new THREE.TextureLoader()
+            const texture=textureLoader.load('./ring.jpg')
+
+            const sphereGeometry=new THREE.SphereGeometry(2,32,32)
+            const sphereMaterial=new THREE.MeshPhongMaterial({map:texture})
+             sphere=new THREE.Mesh(sphereGeometry,sphereMaterial)
+            sphere.position.y=10
+            scene.add(sphere)
+
+            const planeGeometry=new THREE.PlaneGeometry(20,20,64,64)
+            const planeMaterial=new THREE.MeshBasicMaterial({
+                vertexColors:true,
+                wireframe:true
+            })
+            plane=new THREE.Mesh(planeGeometry,planeMaterial)
+            plane.rotation.x=Math.PI/2
+            scene.add(plane)
+            const colors=[]
+            for (let index = 0; index < planeGeometry.attributes.position.count; index++) {
+                colors.push(1,0,0)
+                
+            }
+            planeGeometry.setAttribute("color",new THREE.Float32BufferAttribute(colors,3))
+            camera.position.z=30
+
+            controls=new THREE.OrbitControls(camera,renderer.domElement)
+            controls.enableDamping=true
+            controls.dampingFactor=0.05
+            controls.maxPolarAngle=Math.PI/2
+
+            audioContext=new (window.AudioContext || window.webkitAudioContext)()
+            analyser=audioContext.createAnalyser()
+
+            analyser.fftSize=256
+
+            const bufferLength=analyser.frequencyBinCount
+            dataArray=new Uint8Array(bufferLength)
+
+            const audio=new Audio('./sample.mp3')
+            const source=audioContext.createMediaElementSource(audio)
+            source.connect(analyser)
+            analyser.connect(audioContext.destination)
+            audio.play()
+
+            console.log(analyser)
+
+            animate()
+
+        }
+
+        function animate(){
+            requestAnimationFrame(animate)
+            analyser.getByteFrequencyData(dataArray)
+            sphere.rotation.y+=0.01
+            const vertices=plane.geometry.attributes.position.array;
+            const colors=plane.geometry.attributes.color.array;
+            for (let index = 0; index < vertices.length; index+=3) {
+                const frequencyIndex=Math.floor(index/3)%dataArray.length
+                const h=dataArray[frequencyIndex]/128
+                vertices[index+2]=-h
+
+                const colorVal=h
+                colors[index]=colorVal
+                colors[index+1]=1-colorVal
+                colors[index+2]=0.5+colorVal
+
+            }
+            plane.geometry.attributes.position.needsUpdate=true
+            plane.geometry.attributes.color.needsUpdate=true
+            controls.update()
+            renderer.render(scene,camera)
+        }
+
+        document.getElementById('t').addEventListener('click',()=>{
+            init();
+        });
+        window.addEventListener('resize',()=>{
+            if(renderer){
+            renderer.setSize(window.innerWidth,window.innerHeight)
+            }
+        })
+    </script>
+</body>
+</html>
