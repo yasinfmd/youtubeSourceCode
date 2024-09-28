@@ -1,0 +1,19 @@
+{
+  "name": "ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "ai": "file:",
+    "browser-image-resizer": "^2.4.1",
+    "jimp": "^1.6.0"
+  }
+}
