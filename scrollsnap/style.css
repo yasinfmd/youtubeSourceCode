@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 20px;
+}
+
+.item{
+  height: 100vh;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.item1{
+    background-color: rgb(23, 92, 92);
+}
+.item2{
+  background-color: rgb(160, 17, 153);
+  
+}
+.item3{
+  background-color: rgb(59, 107, 20);
+  
+}
+.item4{
+  background-color: rgb(165, 104, 13);
+  
+}
+.item5{
+  background-color: rgb(138, 0, 0);
+  
+}
