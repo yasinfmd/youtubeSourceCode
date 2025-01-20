@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Color Code Picker",
+    "description": "Renkleri Seçer",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting"
+      ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "web_accessible_resources":[
+        {
+            "resources": ["contentScript.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+  }
