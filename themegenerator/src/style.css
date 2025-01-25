@@ -1,0 +1,14 @@
+.preview{
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+button{
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#downloadBtn{
+  margin-top: 20px;
+}
